@@ -20,8 +20,9 @@ npx hardhat help
 For the dependencies required, please check the package.json
 
 ### How to set up the project
-1. `npx hardhat compile` before deploying smart contract
-2. Run the script in `./scripts` folder to deploy smart contract on blockchain.
-3. Verify the smart contract deployed.
-4. Move the compiled ABI JSON to `/src` folder for easier access
-5. `npm start` to start your project.
+1. Set up `.env` file as referred to the `.env.example` file in the repository.
+2. `npx hardhat compile` before deploying smart contract.
+3. Run the script in `./scripts` folder to deploy smart contract on blockchain.
+4. Verify the smart contract deployed.
+5. Move the compiled ABI JSON to `./src` folder for easier access.
+6. `npm start` to start your project.
