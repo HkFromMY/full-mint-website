@@ -5,7 +5,7 @@ import hkPunksNFT from '../HKPunksNFT.json';
 import './Styles/MainMint.css';
 
 // get the contract address from etherscan
-const contractAddress = '0x3d7460dF61a646d39AABd3A4729DFAa164dc680D';
+const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS;
 
 export default function MainMint({ accounts, setAccounts }) {
     const [mintAmount, setMintAmount] = React.useState(1);
