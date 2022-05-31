@@ -1,0 +1,112 @@
+.mint-area {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.connected {
+    margin-top: 4%;
+}
+
+.not-connected {
+    margin-top: 8.5%;
+}
+
+.mint-title {
+    font-size: 48px;
+}
+
+.mint-text{
+    width: 75%;
+    margin: auto;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.quantity-meter {
+    max-width: 368px;
+    height: 128px;
+    margin: 20px auto 12px auto;
+}
+
+.mint-amount {
+    background-color: #ece6ed;
+    color: black;
+    padding: 8px 64px;
+    box-shadow: 1px 1px 2px #424042;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.mint-amount-actions {
+    cursor: pointer;
+    background-color: #c8886f;
+    color: white;
+    padding: 14px 10px 14px 20px;
+    box-shadow: 1px 2px 5px #727073;
+    border-radius: 5px;
+}
+
+.mint-amount-actions:active {
+    transform: scale(0.95);
+}
+
+.mint-amount-actions::selection {
+    background-color: transparent;
+}
+
+.connect-wallet {
+    margin-top: 48px;
+}
+
+.mint-button {
+    padding: 14px 24px;
+    background-color: #c8886f;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #424042;
+}
+
+.mint-button:hover {
+    background-color: #bf7558;
+    cursor: pointer;
+}
+
+.mint-button:active {
+    transform: scale(0.95);
+    background-color: #c36c4a;
+}
+
+@media only screen and (max-width: 768px) {
+    /* if mobile view */
+
+    .mint-area {
+        margin-top: 64px;
+    }
+
+    .mint-title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .mint-text {
+        font-size: 14px;
+        margin-top: 28px;
+    }
+
+    .connect-wallet {
+        margin: 28px;
+        font-size: 16px;
+    }
+
+    .mint-button {
+        margin-bottom: 16px; 
+    }
+}

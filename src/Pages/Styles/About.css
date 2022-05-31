@@ -1,0 +1,29 @@
+.about-page {
+    max-width: 768px;
+    height: 624px;
+    margin: 24px auto;
+    padding: 24px;
+    text-align: center;
+    background-color:rgba(200 , 136, 111, 0.8);
+    border: 1px solid rgb(225, 137, 102);
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+    color: white;
+}
+
+.about-title {
+    font-size: 28px;
+}
+
+.about-text {
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-page {
+        height: auto;
+        margin: 24px;
+    }
+}

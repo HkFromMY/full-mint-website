@@ -1,0 +1,24 @@
+.team-page {
+    max-width: 768px;
+    margin: 24px auto;
+    padding: 24px;
+    text-align: center;
+    background-color:rgba(13, 8, 111, 0.8);
+    border: 2px solid rgb(10, 7, 88);
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+}
+
+.team-title {
+    font-size: 28px;
+}
+
+.team-text {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .team-page {
+        margin: 24px;
+    }
+}

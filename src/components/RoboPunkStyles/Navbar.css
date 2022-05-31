@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.function-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.functions-list {
+    display: inline-flex;
+    column-gap: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.functions-list li > p {
+    margin-left: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* if mobile view */
+    .navbar {
+        background-color: black;
+        opacity: .8;
+        border-radius: 5px;
+    }
+
+    .hello-text {
+        display: none;
+    }
+
+    .hamburger-icon {
+        margin-left: auto;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .functions-list {
+        display: none;
+    }
+
+    .menu-box {
+        background-color: black;
+        opacity: .8;
+        border-radius: 5px;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-list > * {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+
+    .menu-list > *:active {
+        background-color: gray;
+    }
+
+    .menu-list > *:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
+
+    .menu-list > *:last-child {
+        margin-bottom: 8px;
+    }
+}
