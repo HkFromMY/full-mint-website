@@ -17,7 +17,7 @@ npx hardhat help
 
 # This project is a NFT Minting website
 
-For the dependencies required, please check the package.json
+For the dependencies required, please check the package.json and `npm install`.
 
 ### How to set up the project
 1. Set up `.env` file as referred to the `.env.example` file in the repository.
